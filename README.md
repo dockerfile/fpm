@@ -1,7 +1,7 @@
 ## FPM Dockerfile
 
 
-This repository contains **Dockerfile** of [FPM](https://github.com/jordansissel/fpm) for [Docker](https://www.docker.io/)'s [trusted build](https://index.docker.io/u/dockerfile/fpm/) published to the public [Docker Registry](https://index.docker.io/).
+This repository contains **Dockerfile** of [FPM](https://github.com/jordansissel/fpm) for [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/dockerfile/fpm/) published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
 
 
 ### Dependencies
@@ -11,9 +11,9 @@ This repository contains **Dockerfile** of [FPM](https://github.com/jordansissel
 
 ### Installation
 
-1. Install [Docker](https://www.docker.io/).
+1. Install [Docker](https://www.docker.com/).
 
-2. Download [trusted build](https://index.docker.io/u/dockerfile/fpm/) from public [Docker Registry](https://index.docker.io/): `docker pull dockerfile/fpm`
+2. Download [automated build](https://registry.hub.docker.com/u/dockerfile/fpm/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull dockerfile/fpm`
 
    (alternatively, you can build an image from Dockerfile: `docker build -t="dockerfile/fpm" github.com/dockerfile/fpm`)
 
