@@ -10,9 +10,6 @@ FROM dockerfile/ruby
 # Install FPM.
 RUN gem install fpm
 
-# Define mountable directories.
-VOLUME ["/data"]
-
 # Define working directory.
 WORKDIR /data
 
